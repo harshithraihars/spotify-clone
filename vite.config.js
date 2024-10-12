@@ -11,6 +11,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
+  base:"/spotify-clone/",
   build: {
     rollupOptions: {
       external: ['react-router-dom'],  // Externalize react-router-dom
